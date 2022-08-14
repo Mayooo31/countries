@@ -1,0 +1,40 @@
+.country {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.country_name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0rem;
+}
+
+.country_name h2,
+.country_name p {
+  margin: 0;
+  text-align: center;
+}
+
+.country_name p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.info p span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.info p {
+  max-width: 400px;
+}
